@@ -1,0 +1,59 @@
+:root {
+    --white: #FFFFFF;
+    --lightBeige: #f5f1f0;
+    --beige: #e2d1c2ff;
+    --anotherBeige: #e2d1c2;
+    --darkBeige: #ad9b91;
+    --lightGrey: #404040;
+    --darkGrey: #1b1b1b;
+    --black: #000000;
+}
+
+body{
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: monospace;
+    margin: 0;
+}
+
+h1 {
+    background: var(--secondBg);
+    color: var(--secondColor);
+    margin: 0;
+    height: 75px;
+}
+
+ul {
+    background: var(--secondBg);
+    color: var(--secondColor);
+    width: 500px;
+}
+
+.list{
+    list-style: square; 
+}
+
+.light-theme {
+    --bg: var(--lightBeige);
+    --fontColor: var(--darkBeige);
+    --secondBg: var(--darkBeige);
+    --secondColor: var(--lightBeige);
+}
+
+.dark-theme {
+    --bg: var(--darkGrey);
+    --fontColor: var(--lightBeige);
+    --secondBg: var(--lightGrey);
+    --secondColor: var(--lightBeige);
+}
+
+.btn {
+    position: absolute;
+    top: 0px;
+    left: 1805px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background: var(--secondBg);
+    color: var(--secondColor);
+}
