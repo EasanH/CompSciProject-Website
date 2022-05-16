@@ -4,7 +4,7 @@
     --beige: #e2d1c2ff;
     --anotherBeige: #e2d1c2;
     --darkBeige: #ad9b91;
-    --lightGrey: #404040;
+    --lightGrey: #363636;
     --darkGrey: #1b1b1b;
     --black: #000000;
 }
@@ -20,13 +20,16 @@ h1 {
     background: var(--secondBg);
     color: var(--secondColor);
     margin: 0;
-    height: 75px;
+    text-align: center;
+    padding: 20px;
 }
 
 ul {
-    background: var(--secondBg);
-    color: var(--secondColor);
-    width: 500px;
+    margin: 10px;
+}
+
+#msg {
+    margin: 10px;
 }
 
 .list{
@@ -49,11 +52,14 @@ ul {
 
 .btn {
     position: absolute;
-    top: 0px;
-    left: 1805px;
+    top: 10px;
+    left: 1275px;
     height: 50px;
-    width: 100px;
+    width: 50px;
     border: none;
-    background: var(--secondBg);
-    color: var(--secondColor);
+    border-radius: 50%;
+    /* background: var(--secondBg); */
+    /* color: var(--secondColor); */
+    background: var(--bg);
 }
+
