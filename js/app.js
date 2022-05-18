@@ -1,5 +1,6 @@
 'use strict';
 const switcher = document.querySelector('.btn');
+var img = document.querySelector('.img1');
 
 switcher.addEventListener('click', function() {
     document.body.classList.toggle('light-theme');
@@ -7,9 +8,10 @@ switcher.addEventListener('click', function() {
 
     const className = document.body.className;
     if(className == "light-theme") {
-        this.textContent = "Better Mode";
+        img.src = "C:/Users/temp2/OneDrive/Documents/GitHub/CompSciProject-Website/images/moon.png";
     } else {
-        this.textContent = "Betterer Mode";
+        img.src = "C:/Users/temp2/OneDrive/Documents/GitHub/CompSciProject-Website/images/sun.png";
     }
     console.log('current class name: ' + className);
+    
 });

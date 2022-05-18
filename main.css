@@ -5,8 +5,10 @@
     --anotherBeige: #e2d1c2;
     --darkBeige: #ad9b91;
     --lightGrey: #363636;
-    --darkGrey: #1b1b1b;
-    --black: #000000;
+    --darkGrey: #121212;
+    --darkPurple: #1F1B24;
+    --purple: #332940;
+    --black: #000000;  
 }
 
 body{
@@ -22,6 +24,21 @@ h1 {
     margin: 0;
     text-align: center;
     padding: 20px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xx-large;
+}
+
+.subH {
+    font-family: monospace;
+    font-size: medium;
+    padding: 10px;
+}
+
+.sec {
+    padding: 10px;
+    background: var(--thirdBg);
+    color: var(--thirdColor);
+    
 }
 
 ul {
@@ -30,6 +47,7 @@ ul {
 
 #msg {
     margin: 10px;
+    color: var(--lightBeige);
 }
 
 .list{
@@ -37,29 +55,40 @@ ul {
 }
 
 .light-theme {
-    --bg: var(--lightBeige);
-    --fontColor: var(--darkBeige);
-    --secondBg: var(--darkBeige);
-    --secondColor: var(--lightBeige);
+    --bg: var(--darkBeige);
+    --fontColor: var(--lightBeige);
+    --secondBg: var(--lightBeige);
+    --secondColor: var(--darkBeige);
+    --thirdBg: var(--anotherBeige);
+    --thirdColor: var(--lightGrey);
 }
 
 .dark-theme {
     --bg: var(--darkGrey);
-    --fontColor: var(--lightBeige);
-    --secondBg: var(--lightGrey);
-    --secondColor: var(--lightBeige);
+    --fontColor: var(--lightGrey);
+    --secondBg: var(--darkPurple);
+    --secondColor: var(--white);
+    --thirdBg: var(--lightGrey);
+    --thirdColor: var(--white);
 }
 
 .btn {
     position: absolute;
-    top: 10px;
-    left: 1275px;
-    height: 50px;
-    width: 50px;
+    top: 75px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
     border: none;
     border-radius: 50%;
     /* background: var(--secondBg); */
     /* color: var(--secondColor); */
-    background: var(--bg);
+    background: var(--secondBg);
 }
+
+.img1 {
+    alt: "Switch Mode";
+    height: 20px;
+    width: 20px;
+}
+
 
