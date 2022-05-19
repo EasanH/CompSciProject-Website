@@ -4,7 +4,8 @@
     --beige: #e2d1c2ff;
     --anotherBeige: #e2d1c2;
     --darkBeige: #ad9b91;
-    --lightGrey: #363636;
+    --grey: #1f1e1e;
+    --lightGrey:#666565;
     --darkGrey: #121212;
     --darkPurple: #1F1B24;
     --purple: #332940;
@@ -24,21 +25,29 @@ h1 {
     margin: 0;
     text-align: center;
     padding: 20px;
+    padding-bottom: 10px;
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: xx-large;
+    font-size: 40px;
 }
 
 .subH {
     font-family: monospace;
-    font-size: medium;
+    font-size: 15px;
     padding: 10px;
+    padding-top: 5px;
 }
 
-.sec {
-    padding: 10px;
+h2 {
+    margin: 40px;
+    margin-bottom: 0px;
+    padding-left: 60px;
+    padding-top: 40px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 25px;
     background: var(--thirdBg);
     color: var(--thirdColor);
-    
+    font-size: 22px;
 }
 
 ul {
@@ -68,8 +77,8 @@ ul {
     --fontColor: var(--lightGrey);
     --secondBg: var(--darkPurple);
     --secondColor: var(--white);
-    --thirdBg: var(--lightGrey);
-    --thirdColor: var(--white);
+    --thirdBg: var(--grey);
+    --thirdColor: var(--lightGrey);
 }
 
 .btn {
@@ -91,4 +100,19 @@ ul {
     width: 20px;
 }
 
+.abtMe {
+    background: var(--thirdBg);
+    color: var(--thirdColor);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 504px;
+    margin: 40px;
+    margin-top: 0px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
 
+#res {
+    width: 500px;
+    height: 475px;
+}
