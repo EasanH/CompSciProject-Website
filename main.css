@@ -30,11 +30,14 @@ h1 {
     font-size: 40px;
 }
 
-.subH {
-    font-family: monospace;
-    font-size: 15px;
+nav {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+.navH {
     padding: 10px;
-    padding-top: 5px;
 }
 
 h2 {
@@ -82,9 +85,11 @@ ul {
 }
 
 .btn {
-    position: absolute;
-    top: 75px;
-    right: 10px;
+    position: sticky;
+    top: 77px;
+    right: 15px;
+    /* left: 1300px;
+    bottom: 2665px; */
     height: 30px;
     width: 30px;
     border: none;
@@ -114,5 +119,23 @@ ul {
 
 #res {
     width: 500px;
-    height: 475px;
+    height: 550px;
+}
+
+#p1 {
+    background: var(--lightBeige);
+    margin: 0px;
+    height: 600px;
+}
+
+#resume {
+    background: var(--lightBeige);
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.image {
+    position: absolute;
+    right: 30px;
+    top: 820px;
 }
