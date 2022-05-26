@@ -34,10 +34,28 @@ nav {
     position: sticky;
     top: 0px;
     text-align: center;
+    background: var(--secondBg);
+    padding: 10px;
 }
 
 .navH {
-    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--secondColor);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navH:hover {
+    background: var(--bg);
+    color: var(--fontColor);
+}
+
+.navH:active {
+    background-color: var(--bg);
+    color: var(--fontColor);
 }
 
 h2 {
@@ -85,18 +103,15 @@ ul {
 }
 
 .btn {
-    position: sticky;
-    top: 77px;
-    right: 15px;
-    /* left: 1300px;
-    bottom: 2665px; */
+    position: absolute;
+    right: 10px;
+    top: -5px;
     height: 30px;
-    width: 30px;
+    width: 40px;
     border: none;
     border-radius: 50%;
-    /* background: var(--secondBg); */
-    /* color: var(--secondColor); */
     background: var(--secondBg);
+    padding-top: 15px;
 }
 
 .img1 {
@@ -123,13 +138,16 @@ ul {
 }
 
 #p1 {
-    background: var(--lightBeige);
+    background: var(--secondBg);
+    color: var(--thirdColor);
     margin: 0px;
     height: 600px;
+    padding-left: 80px;
+    padding-top: 20px;
 }
 
 #resume {
-    background: var(--lightBeige);
+    background: var(--secondBg);
     margin: 0px;
     border-radius: 0px;
 }
@@ -137,5 +155,20 @@ ul {
 .image {
     position: absolute;
     right: 30px;
-    top: 820px;
+    top: 895px;
+}
+
+#contact {
+    background: var(--secondBg);
+    margin: 0px;
+    border-radius: 0px;
+}
+
+#p2 {
+    background: var(--secondBg);
+    color: var(--thirdColor);
+    margin: 0px;
+    height: 200px;
+    padding-left: 80px;
+    padding-top: 20px;
 }
