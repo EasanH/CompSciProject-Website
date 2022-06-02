@@ -129,7 +129,12 @@ ul {
     margin: 40px;
     margin-top: 0px;
     padding-left: 80px;
+    padding-right: 600px;
     padding-top: 20px;
+    font-size: 15px;
+    text-indent: 35px;
+    line-height: 30px;
+    font-weight: 550;
 }
 
 #res {
@@ -152,10 +157,16 @@ ul {
     border-radius: 0px;
 }
 
-.image {
+#img2 {
     position: absolute;
     right: 30px;
     top: 895px;
+}
+
+#img3 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
 }
 
 #contact {
